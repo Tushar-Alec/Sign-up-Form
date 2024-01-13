@@ -6,6 +6,9 @@
 
 body {
   overflow: hidden;
+  font-family: "Arial", sans-serif;
+  color: white;
+  width: auto;
 }
 .main-pic {
   width: 100%;
@@ -30,7 +33,7 @@ a {
   color: #fff;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  color: gold;
+  color: rgb(240, 214, 64);
 }
 
 .right-section {
@@ -41,7 +44,7 @@ a {
   width: 60%;
   height: 100vh;
   float: right;
-  background-color: gold;
+  background-color: rgb(240, 214, 64);
 }
 /* @media (max-width: 850px) {
     .main-pic, .left-section, .right-section{
@@ -57,5 +60,73 @@ a {
 
 form {
     margin: auto;
-   font-size: 25px;
+    margin-right: -px;
+   font-size: 30px;
+}
+input {
+    display: block;
+    transition: all .3s ease-in;
+    border: 2px solid rgb(240, 214, 64);
+    border-radius: 4px;
+    outline: none;
+    margin-top: -32px;
+    font-size: 16px;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    padding: 6px 6px 6px 10px;
+    color: white;
+}
+#dob {
+  width: 190px;
+}
+input:hover {
+  border: 2px solid  white;
+  border-radius: 4px;
+  
+}
+input.clicked {
+border: 2px solid white;
+
+}
+select {
+  display: block;
+  transition: all .3s ease-in;
+  border: none;
+  outline: none;
+  margin-top: -25px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  height: 30px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: white;
+}
+option {
+  color: black;
+}
+h2 {
+  text-align: center;
+}
+.signin-link:hover {
+  text-decoration: underline;
+}
+
+.submit-btn {
+  padding: 15px 58px 15px 58px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+  margin-left: px;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.submit-btn:hover {
+  background-color: white;
+}
+.login-line {
+  font-size: 21px;
+  margin-left: 42vh;
+  margin-top: 5px;
 }
