@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>SIGN-UP-FORM</title>
   </head>
   <body>
@@ -24,17 +25,32 @@
     </div>
 
     <div class="right-section">
-        <form action="" method="get">
-          <h2>Sign Up Form:</h2>
-          <br />
-          <label for="fname">First Name: &nbsp;</label>
-          <input type="text" id="fname" name="first_name" required /><br />
-          <label for="lname">Last Name: &nbsp;</label>
-          <input type="text" id="lname" name="last_name" required/><br />
-          <button type="submit">Submit</button>
-          <p>already an user?<a style="color: blue;" href="login.html">Sign-in</a></p>
-        </form>
-      </div>
+      <form action="" method="get">
+        <h2>"Join the Battle! Create Your Account"</h2>
+        <br />
+        <label for="username">Username: &nbsp;</label>
+        <input type="text" id="username" name="username" required /><br />
+        <label for="password">Password: &nbsp;</label>
+        <input type="password" id="password" name="password" required /><br />
+        <label for="password">Confirm Password: &nbsp;</label>
+        <input type="password" id="cpassword" name="cpassword" required /><br />
+        <label for="date">Date of Birth: &nbsp;</label>
+        <input type="date" id="dob" name="dob" required /><br />
+        <label for="country">Select Country: &nbsp;</label>
+        <select id="country" name="country" required>
+          <option value="india">India</option>
+          <option value="russia">Russia</option>
+          <option value="japan">Japan</option>
+          <option value="usa">United States</option>
+          <option value="canada">Canada</option>
+          <option value="uk">United Kingdom</option>
+        </select><br />
 
+        <button class="submit-btn" type="submit">Register</button>
+        <p class="login-line">
+          Already an user? <a class="signin-link" style="color: white;" href="login.html">Sign-in</a>
+        </p>
+      </form>
+    </div>
   </body>
 </html>
