@@ -21,6 +21,13 @@ body {
   float: left;
   position: absolute;
 }
+.logo {
+  position: absolute;
+  width: 60px;
+  height: 70px;
+  margin-left: -580px;
+  margin-top: 20px;
+}
 .pic-credit {
   color: white;
   font-size: 16px;
@@ -114,19 +121,35 @@ h2 {
 
 .submit-btn {
   padding: 15px 58px 15px 58px;
-  border: none;
+  border: 3px solid white;
   cursor: pointer;
   border-radius: 4px;
   display: block;
-  margin-left: px;
   font-size: 20px;
   letter-spacing: 4px;
+  background-color: rgb(240, 214, 64);
 }
 .submit-btn:hover {
   background-color: white;
 }
 .login-line {
-  font-size: 21px;
-  margin-left: 42vh;
+  font-size: 30px;
+  margin-left: 35vh;
   margin-top: 5px;
+}
+
+.username {
+  margin-left: -90px;
+}
+.password {
+  margin-left: -90px;
+}
+
+#confirmPasswordError {
+  color: red;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
 }
