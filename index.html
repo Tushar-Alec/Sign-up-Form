@@ -10,6 +10,7 @@
   <body>
     <div class="left-section">
       <img class="main-pic" src="images/mainpic.jpg" alt="xyz" />
+      <img class="logo" src="images/odin-lined.png" alt="logo">
       <p class="pic-credit">
         Photo by
         <a
@@ -25,7 +26,7 @@
     </div>
 
     <div class="right-section">
-      <form action="" method="get">
+      <form id="registrationForm" action="" method="get">
         <h2>"Join the Battle! Create Your Account"</h2>
         <br />
         <label for="username">Username: &nbsp;</label>
@@ -34,6 +35,7 @@
         <input type="password" id="password" name="password" required /><br />
         <label for="password">Confirm Password: &nbsp;</label>
         <input type="password" id="cpassword" name="cpassword" required /><br />
+        <span id="confirmPasswordError" class="error-message"></span><br />
         <label for="date">Date of Birth: &nbsp;</label>
         <input type="date" id="dob" name="dob" required /><br />
         <label for="country">Select Country: &nbsp;</label>
