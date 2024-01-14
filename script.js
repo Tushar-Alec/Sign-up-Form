@@ -29,3 +29,21 @@ allInputs.forEach(function(input) {
 
 // Attach a click event listener to the document
 document.addEventListener('click', handleClickOutsideInputs);
+
+
+
+// function to check if password maches //
+
+document.getElementById('registrationForm').addEventListener('submit', function(event) {
+    var password = document.getElementById('password').value;
+    var confirmPassword = document.getElementById('cpassword').value;
+    var confirmPasswordError = document.getElementById('confirmPasswordError');
+
+    // Check if passwords match
+    if (password !== confirmPassword) {
+      confirmPasswordError.textContent = 'Passwords do not match.';
+      event.preventDefault(); // Prevent form submission
+    } else {
+      confirmPasswordError.textContent = ''; // Clear error message if passwords match
+    }
+  });
