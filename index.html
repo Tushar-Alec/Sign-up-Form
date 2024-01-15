@@ -10,7 +10,7 @@
   <body>
     <div class="left-section">
       <img class="main-pic" src="images/mainpic.jpg" alt="xyz" />
-      <img class="logo" src="images/odin-lined.png" alt="logo">
+      <img class="logo" src="images/odin-lined.png" alt="logo" />
       <p class="pic-credit">
         Photo by
         <a
@@ -28,29 +28,45 @@
     <div class="right-section">
       <form id="registrationForm" action="" method="get">
         <h2>"Join the Battle! Create Your Account"</h2>
+
+        <div class="first-div">
+          <label for="username">Username: &nbsp;</label>
+          <input type="text" id="username" name="username" required />
+          <label for="date">Date of Birth: &nbsp;</label>
+          <input type="date" id="dob" name="dob" required />
+        </div>
         <br />
-        <label for="username">Username: &nbsp;</label>
-        <input type="text" id="username" name="username" required /><br />
-        <label for="password">Password: &nbsp;</label>
-        <input type="password" id="password" name="password" required /><br />
-        <label for="password">Confirm Password: &nbsp;</label>
-        <input type="password" id="cpassword" name="cpassword" required /><br />
-        <span id="confirmPasswordError" class="error-message"></span><br />
-        <label for="date">Date of Birth: &nbsp;</label>
-        <input type="date" id="dob" name="dob" required /><br />
-        <label for="country">Select Country: &nbsp;</label>
-        <select id="country" name="country" required>
-          <option value="india">India</option>
-          <option value="russia">Russia</option>
-          <option value="japan">Japan</option>
-          <option value="usa">United States</option>
-          <option value="canada">Canada</option>
-          <option value="uk">United Kingdom</option>
-        </select><br />
+
+        <div class="second-div">
+          <label for="password">Password: &nbsp;</label>
+          <input type="password" id="password" name="password" required />
+          <label for="password">Confirm Password: &nbsp;</label>
+          <input type="password" id="cpassword" name="cpassword" required/>
+          <span id="confirmPasswordError" class="error-message"></span>
+        </div>
+
+        <div class="third-div">
+          <label for="country">Select Country: &nbsp;</label>
+          <select id="country" name="country" required>
+            <option value="india">India</option>
+            <option value="russia">Russia</option>
+            <option value="japan">Japan</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+          </select>
+          <label for="number">Phone No: &nbsp;</label>
+          <input type="tel" id="phoneNumber" name="phone
+          Number" placeholder="123-456-7890" required />
+        </div>
+        <br />
 
         <button class="submit-btn" type="submit">Register</button>
         <p class="login-line">
-          Already an user? <a class="signin-link" style="color: white;" href="login.html">Sign-in</a>
+          Already an user?
+          <a class="signin-link" style="color: white" href="login.html"
+            >Sign-in</a
+          >
         </p>
       </form>
     </div>
