@@ -9,6 +9,7 @@ body {
   font-family: "Arial", sans-serif;
   color: white;
   width: auto;
+  background-color: black;
 }
 .main-pic {
   width: 100%;
@@ -47,7 +48,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
   width: 60%;
   height: 100vh;
   float: right;
@@ -67,9 +67,7 @@ a {
 
 form {
   margin: auto;
-  font-size: 30px;
-  width: min-content;
-  width: 100%;
+  font-size: 25px;
 }
 input {
   display: flex;
@@ -77,14 +75,12 @@ input {
   border: 2px solid rgb(240, 214, 64);
   border-radius: 4px;
   outline: none;
-  font-size: 18px;
-  border-bottom: 2px solid white;
+  font-size: 20px;
+  border-bottom: 3px solid white;
   background-color: transparent;
   padding: 6px 6px 6px 10px;
   color: white;
-}
-#dob {
-  width: 190px;
+  margin: 5px;
 }
 input:hover {
   border: 2px solid white;
@@ -98,10 +94,10 @@ select {
   transition: all 0.3s ease-in;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
-  width: 200px;
-  height: 30px;
+  width: 250px;
+  height: 35px;
   background-color: transparent;
   border-bottom: 2px solid white;
   color: white;
@@ -111,7 +107,8 @@ option {
 }
 h2 {
   text-align: center;
-  font-size: 65px;
+  font-size: 48px;
+  margin:  20px;
 }
 .signin-link:hover {
   text-decoration: underline;
@@ -126,23 +123,22 @@ h2 {
   font-size: 20px;
   letter-spacing: 4px;
   background-color: rgb(240, 214, 64);
+  color: #fff;
 }
 .submit-btn:hover {
   background-color: white;
+  color: gold;
 }
 .login-line {
-  font-size: 30px;
-  margin-left: 35vh;
-  margin-top: 5px;
+  font-size: 25px;
+  margin-left: 38vh;
+  margin-top: 10px;
 }
-
-.username {
-  margin-left: -90px;
+.signup-line {
+  font-size: 25px;
+  margin-left: 44vh;
+  margin-top: 10px;
 }
-.password {
-  margin-left: -90px;
-}
-
 #confirmPasswordError {
   color: red;
   font-size: 17px;
@@ -152,29 +148,37 @@ h2 {
   flex-direction: column;
 }
 
-.first-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  width: max-content;
-}
-.second-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: max-content;
-}
+.first-div,
+.second-div,
 .third-div {
   display: flex;
   justify-content: center;
   align-items: center;
   width: max-content;
+  width: 900px;
+  gap: 10px;
 }
+
+
 label {
-  padding: 8px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   
+}
+.second-div {
+  margin-bottom: 25px;
+}
+#dob {
+  width: 230px;
+}
+.login-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: max-content;
+  width: 900px;
+  gap: 10px;
 }
