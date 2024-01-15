@@ -41,7 +41,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     // Check if passwords match
     if (password !== confirmPassword) {
-      confirmPasswordError.textContent = 'Passwords do not match.';
+      confirmPasswordError.textContent = 'Passwords does not match.';
       event.preventDefault(); // Prevent form submission
     } else {
       confirmPasswordError.textContent = ''; // Clear error message if passwords match
