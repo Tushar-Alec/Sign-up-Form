@@ -88,8 +88,7 @@ input:hover {
   border-radius: 4px;
 }
 input.clicked {
-  border: 2px solid white;
-  background-color: silver;
+  border: 2px solid black;
 }
 select {
   display: flex;
