@@ -77,7 +77,6 @@ input {
   border-radius: 4px;
   outline: none;
   font-size: 20px;
-  /* border-bottom: 3px solid white; */
   background-color: transparent;
   padding: 6px 6px 6px 10px;
   color: white;
@@ -86,9 +85,6 @@ input {
 input:hover {
   border: 2px solid white;
   border-radius: 4px;
-}
-input.clicked {
-  border: 2px solid black;
 }
 select {
   display: flex;
@@ -99,7 +95,6 @@ select {
   font-size: 20px;
   width: 255px;
   height: 35px;
-  /* border-bottom: 3px solid white; */
   background-color: transparent;
   padding: 6px 6px 6px 10px;
   color: white;
