@@ -41,7 +41,7 @@ a {
   color: #fff;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  color: rgb(240, 214, 64);
+  color: teal;
 }
 
 .right-section {
@@ -51,7 +51,7 @@ a {
   width: 60%;
   height: 100vh;
   float: right;
-  background-color: rgb(240, 214, 64);
+  background-color: teal;
   
 }
 /* @media (max-width: 850px) {
@@ -125,12 +125,12 @@ h2 {
   display: block;
   font-size: 20px;
   letter-spacing: 4px;
-  background-color: rgb(240, 214, 64);
+  background-color: teal;
   color: #fff;
 }
 .submit-btn:hover {
   background-color: white;
-  color: gold;
+  color: teal;
 }
 .login-line {
   font-size: 25px;
