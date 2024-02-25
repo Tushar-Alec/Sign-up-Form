@@ -100,7 +100,7 @@ select {
   margin: 5px;
 }
 select:hover {
-  box-shadow:  -2px -2px 10px white;
+  box-shadow:  2px 2px 10px white;
 }
 option {
   color: black;
